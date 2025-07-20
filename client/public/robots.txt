@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# PWA specific files
+Allow: /manifest.json
+Allow: /sw.js
+Allow: /offline.html
+Allow: /browserconfig.xml
+
+# Sitemap
+Sitemap: https://www.sirahabazaar.com/sitemap.xml
+
+# Disallow sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /delivery-partner/
+Disallow: /seller/
+
+# Allow important pages
+Allow: /
+Allow: /products
+Allow: /stores
+Allow: /restaurants
+Allow: /categories
+Allow: /about
+Allow: /contact

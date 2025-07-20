@@ -1,0 +1,142 @@
+{
+  "name": "Siraha Bazaar - Online Shopping & Food Delivery",
+  "short_name": "Siraha Bazaar",
+  "description": "Your trusted local marketplace in Siraha, Nepal. Shop online with fast delivery.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["shopping", "food", "business", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Browse Products",
+      "short_name": "Products",
+      "description": "Browse all products",
+      "url": "/products",
+      "icons": [{ "src": "/assets/icon2.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Find Restaurants",
+      "short_name": "Restaurants",
+      "description": "Find local restaurants",
+      "url": "/restaurants",
+      "icons": [{ "src": "/assets/icon2.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Shopping Cart",
+      "short_name": "Cart",
+      "description": "View your shopping cart",
+      "url": "/cart",
+      "icons": [{ "src": "/assets/icon2.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Track Orders",
+      "short_name": "Orders",
+      "description": "Track your orders",
+      "url": "/account",
+      "icons": [{ "src": "/assets/icon2.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/icon2.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/assets/icon2.png",
+      "type": "image/png",
+      "sizes": "750x1334",
+      "form_factor": "narrow"
+    }
+  ],
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+siraha",
+      "url": "/?action=%s"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.sirahabazaar.app",
+      "id": "com.sirahabazaar.app"
+    }
+  ]
+}
